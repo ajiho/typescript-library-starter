@@ -1,6 +1,7 @@
 # TypeScript Library Starter
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://www.lujiahao.com/sponsor)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.tslang.org)
 [![Test](https://img.shields.io/github/actions/workflow/status/ajiho/typescript-library-starter/tests.yml?label=Test&logo=github&style=flat-square&branch=main)](https://github.com/ajiho/typescript-library-starter/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/github/ajiho/typescript-library-starter/graph/badge.svg?token=YR846BMB6Y)](https://codecov.io/github/ajiho/typescript-library-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ajiho/typescript-library-starter/blob/main/LICENSE)
