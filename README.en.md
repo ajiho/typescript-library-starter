@@ -4,6 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.tslang.org)
 [![Test](https://img.shields.io/github/actions/workflow/status/ajiho/typescript-library-starter/tests.yml?label=Test&logo=github&style=flat-square&branch=main)](https://github.com/ajiho/typescript-library-starter/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/github/ajiho/typescript-library-starter/graph/badge.svg?token=YR846BMB6Y)](https://codecov.io/github/ajiho/typescript-library-starter)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ajiho/typescript-library-starter/blob/main/LICENSE)
 
 ---
