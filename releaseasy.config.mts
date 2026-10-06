@@ -10,4 +10,7 @@ export default {
       args: "--tag ${version}",
     },
   },
+  hooks: {
+    "before:init": "pnpm check",
+  },
 } satisfies UserConfig;
