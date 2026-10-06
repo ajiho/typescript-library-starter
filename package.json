@@ -76,7 +76,8 @@
     "vitest": "^4.1.11"
   },
   "simple-git-hooks": {
-    "commit-msg": "pnpm commitlint"
+    "commit-msg": "pnpm commitlint",
+    "pre-commit": "pnpm check"
   },
   "config": {
     "commitizen": {
