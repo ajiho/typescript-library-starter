@@ -57,12 +57,11 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
+    "@commitlint/types": "^21.2.3",
     "@size-limit/preset-small-lib": "^14.1.0",
     "@types/node": "^26.6.4",
     "@vitest/coverage-v8": "^4.1.11",
     "@vitest/ui": "^4.1.11",
-    "commitizen": "^4.3.2",
-    "cz-git": "^1.14.0",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.71.0",
     "oxlint": "^1.87.0",
@@ -78,11 +77,6 @@
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint",
     "pre-commit": "pnpm check"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-git"
-    }
   },
   "packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d"
 }

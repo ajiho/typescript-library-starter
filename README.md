@@ -4,7 +4,6 @@
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.tslang.org)
 [![Test](https://img.shields.io/github/actions/workflow/status/ajiho/typescript-library-starter/tests.yml?label=Test&logo=github&style=flat-square&branch=main)](https://github.com/ajiho/typescript-library-starter/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/github/ajiho/typescript-library-starter/graph/badge.svg?token=YR846BMB6Y)](https://codecov.io/github/ajiho/typescript-library-starter)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ajiho/typescript-library-starter/blob/main/LICENSE)
 ---
 
@@ -13,11 +12,6 @@
 一个现代化的 TypeScript 库开发起始模板。
 
 开箱即用地提供从开发、测试、构建到发布的完整工具链，让你专注于编写高质量的 TypeScript 库，而无需重复搭建基础工程配置。
-
-> [!TIP]
-> **喜欢使用 JavaScript？**
->
-> 如果你更喜欢使用 JavaScript 而不是 TypeScript，可以看看我的 [JavaScript Library Starter](https://github.com/ajiho/javascript-library-starter)，它提供了与本项目类似的现代化 JavaScript 库开发工具链。
 
 ## 集成
 
@@ -33,8 +27,6 @@
 - [Renovate](https://docs.renovatebot.com/) — 自动更新依赖版本
 - [Publint](https://publint.dev/docs/) — npm 包配置与发布产物检查
 - [commitlint](https://github.com/conventional-changelog/commitlint) — 校验提交信息规范
-- [commitizen](https://github.com/commitizen/cz-cli) — 交互式提交信息生成
-- [cz-git](https://github.com/Zhengqbbb/cz-git) — Commitizen 的规范提交适配器
 
 ## 使用
 
