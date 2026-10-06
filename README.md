@@ -27,7 +27,7 @@
 - [Codecov](https://about.codecov.io/) — 覆盖率报告上传与持续集成分析平台
 - [Size Limit](https://github.com/ai/size-limit) — 构建产物体积检测
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — 轻量 Git Hooks
-- [Release Please](https://github.com/googleapis/release-please) — 自动化版本管理与发布
+- [releaseasy](https://github.com/releaseasy/releaseasy) — 自动化版本发布与变更日志生成
 - [pnpm](https://pnpm.io/) — 快速、节省磁盘空间的包管理器
 - [Renovate](https://docs.renovatebot.com/) — 自动更新依赖版本
 - [Publint](https://publint.dev/docs/) — npm 包配置与发布产物检查

@@ -28,10 +28,11 @@ Provides a complete toolchain from development, testing, building to publishing 
 - [Codecov](https://about.codecov.io/) — Code coverage reporting & CI analysis platform
 - [Size Limit](https://github.com/ai/size-limit) — Bundle size checker
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — Lightweight Git hooks
-- [Release Please](https://github.com/googleapis/release-please) — Automated versioning and publishing
+- [releaseasy](https://github.com/releaseasy/releaseasy) — Automated version releases and changelog generation
 - [pnpm](https://pnpm.io/) — Fast, disk-space efficient package manager
 - [Renovate](https://docs.renovatebot.com/) — Automated dependency updates
 - [Publint](https://publint.dev/docs/) — npm package config & publish artifact checking
+
 
 ## Usage
 
