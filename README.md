@@ -31,6 +31,9 @@
 - [pnpm](https://pnpm.io/) — 快速、节省磁盘空间的包管理器
 - [Renovate](https://docs.renovatebot.com/) — 自动更新依赖版本
 - [Publint](https://publint.dev/docs/) — npm 包配置与发布产物检查
+- [commitlint](https://github.com/conventional-changelog/commitlint) — 校验提交信息规范
+- [commitizen](https://github.com/commitizen/cz-cli) — 交互式提交信息生成
+- [cz-git](https://github.com/Zhengqbbb/cz-git) — Commitizen 的规范提交适配器
 
 ## 使用
 
