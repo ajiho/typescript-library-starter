@@ -51,8 +51,7 @@
     "publint": "publint",
     "commitlint": "commitlint -e -V",
     "check": "run-s lint typecheck coverage build publint",
-    "release": "releaseasy",
-    "commit": "git-cz"
+    "release": "releaseasy"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
