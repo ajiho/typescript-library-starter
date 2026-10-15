@@ -24,6 +24,7 @@
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — 轻量 Git Hooks
 - [releaseasy](https://github.com/releaseasy/releaseasy) — 自动化版本发布与变更日志生成
 - [pnpm](https://pnpm.io/) — 快速、节省磁盘空间的包管理器
+- [npm-run-all2](https://github.com/bcomnes/npm-run-all2) — 串行与并行执行 npm scripts
 - [Renovate](https://docs.renovatebot.com/) — 自动更新依赖版本
 - [Publint](https://publint.dev/docs/) — npm 包配置与发布产物检查
 - [commitlint](https://github.com/conventional-changelog/commitlint) — 校验提交信息规范

@@ -25,6 +25,7 @@ Provides a complete toolchain from development, testing, building to publishing 
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — Lightweight Git hooks
 - [releaseasy](https://github.com/releaseasy/releaseasy) — Automated version releases and changelog generation
 - [pnpm](https://pnpm.io/) — Fast, disk-space efficient package manager
+- [npm-run-all2](https://github.com/bcomnes/npm-run-all2) — Run npm scripts sequentially or in parallel
 - [Renovate](https://docs.renovatebot.com/) — Automated dependency updates
 - [Publint](https://publint.dev/docs/) — npm package config & publish artifact checking
 - [commitlint](https://github.com/conventional-changelog/commitlint) — Validate commit message conventions
