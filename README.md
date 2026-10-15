@@ -63,7 +63,8 @@ pnpm install
 
 | 脚本              | 说明                                                                        |
 | ----------------- | --------------------------------------------------------------------------- |
-| `pnpm format`     | 使用 Oxfmt 格式化代码                                                       |
+| `pnpm fmt`        | 使用 Oxfmt 格式化代码                                                       |
+| `pnpm fmt:check`  | 使用 Oxfmt 检查代码                                                         |
 | `pnpm lint`       | 使用 Oxlint 检查代码                                                        |
 | `pnpm lint:fix`   | 自动修复代码问题                                                            |
 | `pnpm typecheck`  | 使用 TypeScript 检查类型，不生成文件                                        |

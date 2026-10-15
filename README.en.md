@@ -64,7 +64,8 @@ Then modify `package.json`, the entry file, and source code to start developing.
 
 | Script            | Description                                                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| `pnpm format`     | Format code with Oxfmt                                                                                       |
+| `pnpm fmt`        | Format code with Oxfmt                                                                                       |
+| `pnpm fmt:check`  | Check code formatting with Oxfmt                                                                             |
 | `pnpm lint`       | Lint code with Oxlint                                                                                        |
 | `pnpm lint:fix`   | Automatically fix code issues                                                                                |
 | `pnpm typecheck`  | Check types with TypeScript without emitting files                                                           |

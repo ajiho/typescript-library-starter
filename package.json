@@ -32,7 +32,8 @@
   },
   "scripts": {
     "prepare": "simple-git-hooks",
-    "format": "oxfmt",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "pnpm run lint --fix",
     "size": "size-limit",
@@ -46,7 +47,7 @@
     "coverage": "vitest run --coverage",
     "publint": "publint",
     "commitlint": "commitlint -e -V",
-    "check": "run-s lint typecheck format coverage build publint",
+    "check": "run-s fmt:check lint typecheck coverage build publint",
     "release": "releaseasy"
   },
   "devDependencies": {
@@ -81,7 +82,7 @@
     },
     "runtime": {
       "name": "node",
-      "version": "^22.18.0 || ^24.11.0 || >=26.0.0",
+      "version": "^22.19.0 || ^24.18.0 || >=26.3.0",
       "onFail": "error"
     }
   },
