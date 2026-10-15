@@ -61,33 +61,38 @@ pnpm install
 
 ## 脚本
 
-| 脚本            | 说明                                                      |
-| --------------- | --------------------------------------------------------- |
-| `pnpm fmt`      | 使用 Oxfmt 格式化代码                                     |
-| `pnpm lint`     | 使用 Oxlint 检查代码                                      |
-| `pnpm lint:fix` | 自动修复代码问题                                          |
-| `pnpm test`     | 使用 Vitest 运行测试并启动 UI                             |
-| `pnpm coverage` | 运行测试并生成覆盖率                                      |
-| `pnpm build`    | 清理、构建并检查产物体积                                  |
-| `pnpm dev`      | 使用 tsdown 监听并构建代码                                |
-| `pnpm size`     | 检查构建产物体积                                          |
-| `pnpm clean`    | 清理 `dist` 目录                                          |
-| `pnpm prepare`  | 初始化 Simple Git Hooks                                   |
-| `pnpm publint`  | 检查 npm 包配置和发布产物                                 |
-| `pnpm check`    | 运行完整检查，包括代码检查、测试覆盖率、构建和 npm 包检查 |
+| 脚本              | 说明                                                                        |
+| ----------------- | --------------------------------------------------------------------------- |
+| `pnpm format`     | 使用 Oxfmt 格式化代码                                                       |
+| `pnpm lint`       | 使用 Oxlint 检查代码                                                        |
+| `pnpm lint:fix`   | 自动修复代码问题                                                            |
+| `pnpm typecheck`  | 使用 TypeScript 检查类型，不生成文件                                        |
+| `pnpm test`       | 使用 Vitest 运行测试并生成覆盖率报告                                        |
+| `pnpm test:ui`    | 运行测试并启用 Vitest UI                                                    |
+| `pnpm coverage`   | 运行测试并生成覆盖率报告                                                    |
+| `pnpm build`      | 清理、构建并检查产物体积                                                    |
+| `pnpm dev`        | 使用 tsdown 监听并构建代码                                                  |
+| `pnpm tsdown`     | 使用 tsdown 构建代码                                                        |
+| `pnpm size`       | 检查构建产物体积                                                            |
+| `pnpm clean`      | 清理 `dist` 目录                                                            |
+| `pnpm prepare`    | 初始化 Simple Git Hooks                                                     |
+| `pnpm publint`    | 检查 npm 包配置和发布产物                                                   |
+| `pnpm commitlint` | 校验 Git 提交信息                                                           |
+| `pnpm check`      | 运行完整检查，包括代码检查、类型检查、格式化、测试覆盖率、构建和 npm 包检查 |
+| `pnpm release`    | 使用 releaseasy 自动化版本发布与变更日志生成                                |
 
 ### 构建流程
 
 `pnpm build` 会依次执行：
 
 ```text
-clean → build:base → build:min → size
+clean → tsdown → size
 ```
 
 其中：
 
-- `build:base` — 使用 Rolldown 构建
-- `build:min` — 构建生产版本
+- `clean` — 清理 `dist` 目录
+- `tsdown` — 使用 tsdown 构建 TypeScript 库
 - `size` — 检查构建产物体积
 
 ## 鸣谢

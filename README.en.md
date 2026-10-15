@@ -62,34 +62,39 @@ Then modify `package.json`, the entry file, and source code to start developing.
 
 ## Scripts
 
-| Script          | Description                                                     |
-| --------------- | --------------------------------------------------------------- |
-| `pnpm fmt`      | Format code using Oxfmt                                         |
-| `pnpm lint`     | Lint code using Oxlint                                          |
-| `pnpm lint:fix` | Automatically fix code issues                                   |
-| `pnpm test`     | Run tests with Vitest and launch UI                             |
-| `pnpm coverage` | Run tests and generate coverage report                          |
-| `pnpm build`    | Clean, build and check bundle size                              |
-| `pnpm dev`      | Watch and build the code with tsdown                            |
-| `pnpm size`     | Check bundle size                                               |
-| `pnpm clean`    | Remove `dist` directory                                         |
-| `pnpm prepare`  | Initialize Simple Git Hooks                                     |
-| `pnpm publint`  | Check npm package configuration and publish artifacts           |
-| `pnpm check`    | Run full checks: lint, test coverage, build & npm package check |
+| Script            | Description                                                                                                  |
+| ----------------- | ------------------------------------------------------------------------------------------------------------ |
+| `pnpm format`     | Format code with Oxfmt                                                                                       |
+| `pnpm lint`       | Lint code with Oxlint                                                                                        |
+| `pnpm lint:fix`   | Automatically fix code issues                                                                                |
+| `pnpm typecheck`  | Check types with TypeScript without emitting files                                                           |
+| `pnpm test`       | Run tests with Vitest and generate a coverage report                                                         |
+| `pnpm test:ui`    | Run tests with Vitest UI enabled                                                                             |
+| `pnpm coverage`   | Run tests and generate a coverage report                                                                     |
+| `pnpm build`      | Clean, build, and check output size                                                                          |
+| `pnpm dev`        | Watch and build code with tsdown                                                                             |
+| `pnpm tsdown`     | Build code with tsdown                                                                                       |
+| `pnpm size`       | Check build output size                                                                                      |
+| `pnpm clean`      | Clean the `dist` directory                                                                                   |
+| `pnpm prepare`    | Initialize Simple Git Hooks                                                                                  |
+| `pnpm publint`    | Check npm package configuration and published artifacts                                                      |
+| `pnpm commitlint` | Validate Git commit messages                                                                                 |
+| `pnpm check`      | Run a full check, including linting, type checking, formatting, test coverage, build, and npm package checks |
+| `pnpm release`    | Use releaseasy to automate version releases and changelog generation                                         |
 
 ### Build Process
 
-`pnpm build` runs the following steps in order:
+`pnpm build` runs the following in sequence:
 
 ```text
-clean → build:base → build:min → size
+clean → tsdown → size
 ```
 
 Where:
 
-- `build:base` — Build using Rolldown
-- `build:min` — Build the minified production version
-- `size` — Check the bundle size
+- `clean` — Cleans the `dist` directory
+- `tsdown` — Builds the TypeScript library with tsdown
+- `size` — Checks the build output size
 
 ## Credits
 
