@@ -6,6 +6,7 @@
     "library-starter",
     "typescript"
   ],
+  "homepage": "https://github.com/ajiho/typescript-library-starter",
   "bugs": {
     "url": "https://github.com/ajiho/typescript-library-starter/issues"
   },
@@ -39,7 +40,8 @@
     "size": "size-limit",
     "clean": "rimraf dist",
     "tsdown": "tsdown",
-    "build": "run-s clean tsdown size",
+    "banner": "headify dist/**/*.mjs",
+    "build": "run-s clean tsdown size banner",
     "dev": "pnpm run tsdown --watch",
     "typecheck": "tsc --noEmit",
     "test": "vitest --coverage",
@@ -58,6 +60,7 @@
     "@types/node": "^26.6.5",
     "@vitest/coverage-v8": "^5.0.5",
     "@vitest/ui": "^5.0.5",
+    "headify": "^0.1.1",
     "npm-run-all2": "^9.0.4",
     "oxfmt": "^0.75.0",
     "oxlint": "^1.90.0",

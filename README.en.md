@@ -22,6 +22,7 @@ Provides a complete toolchain from development, testing, building to publishing 
 - [Vitest](https://vitest.dev/) — Unit testing & code coverage
 - [Codecov](https://about.codecov.io/) — Code coverage reporting & CI analysis platform
 - [Size Limit](https://github.com/ai/size-limit) — Bundle size checker
+- [Headify](https://github.com/ColoristLab/headify) — A tool for generating file header banners
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — Lightweight Git hooks
 - [releaseasy](https://github.com/releaseasy/releaseasy) — Automated version releases and changelog generation
 - [pnpm](https://pnpm.io/) — Fast, disk-space efficient package manager
@@ -75,6 +76,7 @@ Then modify `package.json`, the entry file, and source code to start developing.
 | `pnpm build`      | Clean, build, and check output size                                                                          |
 | `pnpm dev`        | Watch and build code with tsdown                                                                             |
 | `pnpm tsdown`     | Build code with tsdown                                                                                       |
+| `pnpm banner`     | Add copyright notices using headify                                                                          |
 | `pnpm size`       | Check build output size                                                                                      |
 | `pnpm clean`      | Clean the `dist` directory                                                                                   |
 | `pnpm prepare`    | Initialize Simple Git Hooks                                                                                  |

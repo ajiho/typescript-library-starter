@@ -21,6 +21,7 @@
 - [Vitest](https://vitest.dev/) — 单元测试与覆盖率
 - [Codecov](https://about.codecov.io/) — 覆盖率报告上传与持续集成分析平台
 - [Size Limit](https://github.com/ai/size-limit) — 构建产物体积检测
+- [Headify](https://github.com/ColoristLab/headify) — 文件头部横幅生成工具
 - [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — 轻量 Git Hooks
 - [releaseasy](https://github.com/releaseasy/releaseasy) — 自动化版本发布与变更日志生成
 - [pnpm](https://pnpm.io/) — 快速、节省磁盘空间的包管理器
@@ -74,6 +75,7 @@ pnpm install
 | `pnpm build`      | 清理、构建并检查产物体积                                                    |
 | `pnpm dev`        | 使用 tsdown 监听并构建代码                                                  |
 | `pnpm tsdown`     | 使用 tsdown 构建代码                                                        |
+| `pnpm banner`     | 使用 headify 添加版权注释                                                   |
 | `pnpm size`       | 检查构建产物体积                                                            |
 | `pnpm clean`      | 清理 `dist` 目录                                                            |
 | `pnpm prepare`    | 初始化 Simple Git Hooks                                                     |
