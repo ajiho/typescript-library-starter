@@ -60,7 +60,7 @@
     "@types/node": "^26.6.6",
     "@vitest/coverage-v8": "^5.1.0",
     "@vitest/ui": "^5.1.0",
-    "headify": "^0.2.0",
+    "headify": "^0.4.0",
     "npm-run-all2": "^9.0.4",
     "oxfmt": "^0.76.0",
     "oxlint": "^1.91.0",
