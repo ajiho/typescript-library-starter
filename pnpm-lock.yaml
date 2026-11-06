@@ -188,8 +188,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0(vitest@5.1.0)
       headify:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.4.0
+        version: 0.4.0
       npm-run-all2:
         specifier: ^9.0.4
         version: 9.0.4
@@ -1181,8 +1181,8 @@ packages:
     resolution: {integrity: sha512-1pgFdhK3J2LeM+dVf2Pd424yHx2ou338lC0ErNP2hPx4j8eW1Sp0XqSjNxtk6Tc4Kr5wlWtSvz8cn2yb7/SG/w==}
     engines: {node: '>=20'}
 
-  headify@0.2.0:
-    resolution: {integrity: sha512-LbbIyjWgO/ZZQi720CtOYG3z1oTIoGjXdv3oPFZi/9ArKXvKpKLoWTnBcvu7D+GhZbRvAPxi6Q8TPYwZCTD25g==}
+  headify@0.4.0:
+    resolution: {integrity: sha512-rWK6Etitj6AnQXGK0sFetNwUsGCzCxjZrpK8bBpoN/yKQ9QnMw/C2bxRIB+RoWKOr0BEm3TgLzrnOZRe4L9GGg==}
     engines: {node: ^22.18.0 || >=24.0.0}
     hasBin: true
 
@@ -2497,7 +2497,7 @@ snapshots:
     dependencies:
       ini: 6.0.0
 
-  headify@0.2.0:
+  headify@0.4.0:
     dependencies:
       cac: 7.1.0
 
